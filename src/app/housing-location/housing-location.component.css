@@ -1,5 +1,6 @@
 .listing {
-    background: var(--accent-color);
+    background: white;
+    border: solid 1px var(--accent-color);;
     border-radius: 30px;
     padding-bottom: 30px;
   }
@@ -17,7 +18,7 @@
     padding: 10px 20px 20px 20px;
   }
   .listing-location::before {
-    content: url("/src/assets/location-pin.png") / "location" ;
+    content: url("../../assets/location-pin-x1.png") / "location" ;
   }
   section.listing a {
     padding-left: 20px;
